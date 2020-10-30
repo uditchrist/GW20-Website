@@ -241,8 +241,8 @@ body, p {
 }
 
 h1, h2, h3, h4 {
-  color: #222;
-  font-weight: 600;
+  color: white;
+  font-weight: bold;
 }
 
 h1 {
