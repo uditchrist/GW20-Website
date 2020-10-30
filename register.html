@@ -136,7 +136,7 @@
                                                 
                             </div>
                         </div>
-                        <form action="/register1.php" >
+                        <form action="register1.php" method="post" enctype="multipart/form-data">
                             <h2>Register Form</h2>
                             <div class="input-container">
                               <i class="fa fa-user icon"></i>
@@ -157,15 +157,26 @@
                                 <i class="fa fa-user icon"></i>
                                 <input type="text" placeholder="Enter your College Name" name="clg">
                             </div>
-                            <div class="input-container">
-                              <i class="fa fa-key icon"></i>
-                              <input type="password" placeholder="Enter your Password" name="psw">
-                            </div>
 
+                            <div class="input-container">
+                                 
+                                <i class="fa fa-key icon"></i>
+                                <input type="password" placeholder="Enter your Password" name="psw">
+                              </div>
+                            
                             <div class="input-container">
                                 <i class="fa fa-key icon"></i>
                                 <input type="password" placeholder="Confirm Password" name="conpsw">
                               </div>
+                              
+                            <label>Upload your profile picture</label>
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                                
+                                <input type="file" name="psw">
+                              </div>
+
+                              
                           
                             <button type="submit">Register</button>
                             <button type="reset" class="cancelbtn">Reset</button><br>
