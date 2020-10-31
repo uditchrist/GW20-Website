@@ -111,3 +111,35 @@ $('.widget-content .warning.submit').on('click', function () {
       }
     })
 })
+
+$('.widget-content .mixin').on('click', function () {
+  const toast = swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    padding: '2em'
+  });
+  toast({
+    type: 'success',
+    title: 'Enrolled successfully',
+    padding: '2em',
+  })
+
+})
+
+$('.widget-content .mixine').on('click', function () {
+  const toast = swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    padding: '2em'
+  });
+  toast({
+    type: 'warning',
+    title: 'Profile Varification Incomplete',
+    padding: '2em',
+  })
+
+})
