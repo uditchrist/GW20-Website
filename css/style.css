@@ -9395,4 +9395,14 @@ display:table;
 	.grid-item .pf_title{
 		display:none;
 	}
+		.upcomming-event-section2 .comming-event-item .event-content .details-btn {
+    font-weight: 700;
+    padding: 5px 10px;
+}
+        @media only screen and (max-width: 667px) {
+ .upcomming-event-section2 .comming-event-item .event-content .details-btn {
+    font-weight: 700;
+    padding: 5px 14px;
+}
+     
 }
