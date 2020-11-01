@@ -5647,7 +5647,9 @@ section#upcomming-event-section2 {
 .speakers-three .speaker-item:hover .speaker-content h4 a{
     color: #ff9822;
 }
-
+.speaker-content h4 {
+    color: white;
+}
 .speakers-four .overlay {
     background-color: rgba(27,36,49,.9);
 }
