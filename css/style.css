@@ -9421,3 +9421,8 @@ display:table;
 			font-size: 88px !important;
 		}
 		}
+		 @media only screen and (max-width: 650px) {
+.speaker-center.col-md-2.col-sm-6.col-xs-12 {
+    margin-left: 0px !important;
+}
+		}
