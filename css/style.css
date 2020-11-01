@@ -9418,6 +9418,6 @@ display:table;
 		
 		    @media only screen and (max-width: 650px) {
 		.wm.dark.wm-border {
-			font-size: 88px;
+			font-size: 88px !important;
 		}
 		}
