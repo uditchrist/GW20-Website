@@ -9408,9 +9408,16 @@ display:table;
 }
      
 }
-		     @media only screen and (max-width: 640px) {
+		     @media only screen and (max-width: 650px) {
 .upcomming-event-section2 .comming-event-item .event-content .details-btn {
     font-weight: 700;
     padding: 5px 0px !important;
 }
+		}
+
+		
+		    @media only screen and (max-width: 650px) {
+		.wm.dark.wm-border {
+			font-size: 88px;
+		}
 		}
