@@ -5647,7 +5647,9 @@ section#upcomming-event-section2 {
 .speakers-three .speaker-item:hover .speaker-content h4 a{
     color: #ff9822;
 }
-
+.speaker-content h4 {
+    color: white;
+}
 .speakers-four .overlay {
     background-color: rgba(27,36,49,.9);
 }
@@ -9406,3 +9408,21 @@ display:table;
 }
      
 }
+		     @media only screen and (max-width: 650px) {
+.upcomming-event-section2 .comming-event-item .event-content .details-btn {
+    font-weight: 700;
+    padding: 8px 5px !important;
+}
+		}
+
+		
+		    @media only screen and (max-width: 650px) {
+		.wm.dark.wm-border {
+			font-size: 88px !important;
+		}
+		}
+		 @media only screen and (max-width: 650px) {
+.speaker-center.col-md-2.col-sm-6.col-xs-12 {
+    margin-left: 0px !important;
+}
+		}
