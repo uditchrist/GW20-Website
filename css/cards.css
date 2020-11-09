@@ -1,0 +1,31 @@
+[class*="component-card_"] {
+
+  background-color: #191e3a; }
+
+
+.component-card_1 {
+  border: 1px solid #1b2e4b;
+  border-radius: 6px;
+  width: 19rem;
+  margin: 0 auto;
+padding: 10px;}
+  .component-card_1 .card-body {
+    padding: 28px 25px; }
+  .component-card_1 .icon-svg {
+    margin-bottom: 20px;
+    display: inline-block;
+    background: #3b3f5c;
+    padding: 12px;
+    border-radius: 50%;
+    color: #f1f2f3; }
+  .component-card_1 svg {
+    width: 20px;
+    height: 20px; }
+  .component-card_1 .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px; }
+  .component-card_1 .card-text {
+    letter-spacing: 0px;
+    color: #888ea8; }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>Techovid - Dashboard | College </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="images-event/logo.png"/>
     <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="assets/js/loader.js"></script>
 
@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_multiple_tables.css">
+    <link href="plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
 
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
@@ -213,6 +216,53 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="flFormsGrid" class="col-lg-12 layout-spacing">
+                          <div class="statbox widget box box-shadow">
+                            <div class="widget-header">
+                              <div class="row">
+                                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                  <h4>Add College</h4>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="widget-content widget-content-area">
+                              <form>
+                                <div class="form-group mb-4">
+                                  <label for="inputAddress">College Name</label>
+                                  <input type="text" class="form-control" id="" placeholder="Christ University" required="">
+                                </div>
+                                <div class="form-row mb-4">
+                                  <div class="form-group col-md-6">
+                                    <label for="name">College Email</label>
+                                    <input type="email" class="form-control" id="" placeholder="Email" required="">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <label for="name">College Phone</label>
+                                    <input type="text" class="form-control" id="" placeholder="Phone" required="">
+                                  </div>
+                                </div>
+                                <div class="form-row mb-4">
+                                  <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity" required="">
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control" required="">
+                                      <option selected>Choose...</option>
+                                      <option>...</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group col-md-2">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip" required="">
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary mt-4 collegeAdd">Add</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
 
                         <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-6">
@@ -330,6 +380,8 @@
             });
         } );
     </script>
+    <script src="plugins/sweetalerts/sweetalert2.min.js"></script>
+    <script src="plugins/sweetalerts/custom-sweetalert.js"></script>
     <!-- End PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
 </body>

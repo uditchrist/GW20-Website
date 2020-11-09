@@ -128,6 +128,23 @@ $('.widget-content .mixin').on('click', function () {
 
 })
 
+
+$('.widget-content .collegeAdd').on('click', function () {
+  const toast = swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    padding: '2em'
+  });
+  toast({
+    type: 'success',
+    title: 'College Added',
+    padding: '2em',
+  })
+
+})
+
 $('.widget-content .mixine').on('click', function () {
   const toast = swal.mixin({
     toast: true,
