@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     // Static Mask
 
-    $('#static-mask1').inputmask("99-999999999");  //static mask
+    $('#static-mask1').inputmask("99-9999999999");  //static mask
     $('#static-mask2').inputmask({mask: "aa-9999"});  //static mask
 
 
