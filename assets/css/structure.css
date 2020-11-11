@@ -174,7 +174,7 @@ code {
 .layout-px-spacing {
   padding: 0 32px !important; }
 
-/* 
+/*
 =====================
     Navigation Bar
 =====================
@@ -190,8 +190,8 @@ code {
   .navbar.expand-header {
     margin: 0; }
   .navbar .nav-logo a.navbar-brand img {
-    width: 40px;
-    height: 40px;
+    width: 149px;
+    height: 64.46px;
     border-radius: 5px; }
   .navbar .nav-logo a.navbar-brand .navbar-brand-name {
     font-weight: 700;
@@ -777,7 +777,7 @@ code {
 /*
     ====================
         More Dropdown
-    ====================    
+    ====================
 */
 /*
     Footer
