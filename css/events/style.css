@@ -41,7 +41,7 @@
 			- 404 Error Page
 			- Coming Soon Page
 			- FAQ Panels
-	+ Footer 
+	+ Footer
 		+ Top Footer
 			- Menu
 			- Social Icons
@@ -231,7 +231,7 @@ hr {
 
 /*** Typography ***/
 
-body, p {
+body, p, ul {
   -webkit-font-smoothing: antialiased !important;
   color: #999;
   line-height: 28px;
@@ -806,7 +806,7 @@ ul.user li.sign-in a {
   background: #fff;
 }
 
-.nav>li>a:focus, 
+.nav>li>a:focus,
 .nav>li>a:hover {
   background: none;
 }
@@ -833,7 +833,7 @@ ul.navbar-nav > li {
   display: inline-block;
 }
 
-ul.navbar-nav > li:not(.search):hover, 
+ul.navbar-nav > li:not(.search):hover,
 ul.navbar-nav > li.active {
   color: #fff;
   position: relative;
@@ -866,13 +866,13 @@ ul.navbar-nav > li > a i {
   padding-left: 5px;
 }
 
-.nav .open>a, .nav .open>a:hover, 
+.nav .open>a, .nav .open>a:hover,
 .nav .open>a:focus {
   background: transparent;
   border: 0;
 }
 
-ul.navbar-nav > li:hover > a:after, 
+ul.navbar-nav > li:hover > a:after,
 ul.navbar-nav > li.active > a:after {
   position: absolute;
   content: '';
@@ -1215,7 +1215,7 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
   padding: 15px;
 }
 
-#main-slide .carousel-control .fa-angle-left, 
+#main-slide .carousel-control .fa-angle-left,
 #main-slide .carousel-control .fa-angle-right {
   position: absolute;
   top: 50%;
@@ -1420,8 +1420,8 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
   margin-bottom: 3px;
 }
 
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
   background: none;
 }
@@ -2800,7 +2800,7 @@ body.blog .pagination li.active a {
   border: 1px solid #fff;
 }
 
-/*** Quote and Chart ***/ 
+/*** Quote and Chart ***/
 
 .image-block2 {
   background: #1d1d1d;
@@ -4138,7 +4138,7 @@ h4.panel-title a.collapsed:before {
 /* Small Devices, Tablets */
 
 @media (max-width: 992px) {
-	
+
   .dca-section .container, .facts .container {
     width: 720px;
   }
@@ -4291,7 +4291,7 @@ h4.panel-title a.collapsed:before {
 /*** Only Small Devices ***/
 
 @media (max-width: 992px) and (min-width:768px) {
-	
+
   .main-logo {
     float: none;
     padding-bottom: 0;
@@ -4334,11 +4334,11 @@ h4.panel-title a.collapsed:before {
   .img-block-quote {
     padding: 40px 100px 10px;
   }
-  
+
   .facts .facts-content .fact:after {
 	right: 1%;
   }
-  
+
   .shop-checkout .table {
 	  margin-bottom:30px;
   }
@@ -4353,7 +4353,7 @@ h4.panel-title a.collapsed:before {
 
 
 @media (max-width : 767px) {
-	
+
   ul.nav.nav-tabs li a, ul.nav.nav-tabs li.active a {
     padding: 0 20px;
   }
@@ -4370,7 +4370,7 @@ h4.panel-title a.collapsed:before {
     clear: both;
     height: 20px;
   }
-  
+
   .bitcoin-calculator .form-equal {
     display: block;
     padding: 20px 0;
@@ -4441,7 +4441,7 @@ h4.panel-title a.collapsed:before {
     background: none;
   }
 
-  ul.navbar-nav > li:hover > a:after, 
+  ul.navbar-nav > li:hover > a:after,
 	ul.navbar-nav > li.active > a:after {
     background: none;
   }
@@ -4586,7 +4586,7 @@ h4.panel-title a.collapsed:before {
   .bg-image-2 {
     padding: 15px;
   }
-  
+
   .widget {
 		padding: 15px;
 		margin-bottom: 15px;
@@ -4644,7 +4644,7 @@ h4.panel-title a.collapsed:before {
   section.blog {
     padding-bottom: 10px;
   }
-  
+
   .footer .bottom-footer p {
     text-align: center;
   }
@@ -4729,7 +4729,7 @@ h4.panel-title a.collapsed:before {
   .comments-reply {
     margin: 0;
   }
-  
+
   .comments-list .comment {
 	  margin-bottom: 15px;
     padding: 15px;
@@ -4797,7 +4797,7 @@ h4.panel-title a.collapsed:before {
   .shop-checkout .form-group ,.shop-checkout .checkout .payment .paypal,  .shop-checkout .table, .contact-form .form-group {
 	  margin-bottom:15px;
   }
-  
+
   body.light .dropdown-menu li.active a {
 	  background:none;
   }
@@ -5072,9 +5072,9 @@ h4.panel-title a.collapsed:before {
     margin-bottom: 15px;
   }
 }
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media (max-width : 480px) {
-	
+
   ul.bitcoin-stats {
     display: none;
   }
