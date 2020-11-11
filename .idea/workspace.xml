@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="19cd01e7-6837-4b11-baff-a380fda09704" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/FAQ.html" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="dd0af308-1ca0-4d1e-9fba-e5b1e5e64d21" name="Default Changelist" comment="" />
+>>>>>>> 3286ca35efd7983166a72fc17b0318be017e9059
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="1k89xgiJWz37uxyzHpNWBd8FuyT" />
+=======
+  <component name="ProjectId" id="1k8fJiNy0qvH5GqIvlsbcYsKyIG" />
+>>>>>>> 3286ca35efd7983166a72fc17b0318be017e9059
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19cd01e7-6837-4b11-baff-a380fda09704" name="Default Changelist" comment="" />
+      <created>1605071605518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605071605518</updated>
+      <workItem from="1605071610327" duration="6259000" />
+      <workItem from="1605093932692" duration="2037000" />
+=======
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images-event/events" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gateways\GW20-Website\images-event\events" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd0af308-1ca0-4d1e-9fba-e5b1e5e64d21" name="Default Changelist" comment="" />
+      <created>1605087069882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605087069882</updated>
+      <workItem from="1605087071481" duration="3206000" />
+>>>>>>> 3286ca35efd7983166a72fc17b0318be017e9059
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="WindowStateProjectService">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605090078059">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1605090078059" />
+  </component>
+>>>>>>> 3286ca35efd7983166a72fc17b0318be017e9059
+</project>

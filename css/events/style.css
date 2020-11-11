@@ -231,7 +231,7 @@ hr {
 
 /*** Typography ***/
 
-body, p {
+body, p, ul {
   -webkit-font-smoothing: antialiased !important;
   color: #999;
   line-height: 28px;
