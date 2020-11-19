@@ -1335,6 +1335,9 @@ section#upcomming-event-section2 {
     color: #696969;
     margin-top: 4px;
 }
+span.member-email {
+    display: block;
+}
 /* speaker */
 .dark-layout .speaker-items {
     position: relative;
