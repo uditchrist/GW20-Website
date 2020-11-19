@@ -1888,46 +1888,6 @@ Student Section CSS
     padding: 10px;
 }
 
-.members-list-incharge{
-    width: 360px;
-    overflow-y: auto;
-   height: 572px;
-    margin-left: 0;
-}
-.members-list-inchargeli{
-    list-style: none;
-    overflow: hidden;
-       background-color: #28323d;
-      border-bottom: 1px solid #18191b;
-}
-
-.members-list-incharge li:last-child{
-    border-bottom: none;
-}
-.members-list-incharge li a{
-    display: block;
-    padding: 14px 14px 23px 14px;
-    outline: none;
-}
-.members-list-incharge li .event-date{
-    float: left;
-    position: relative;
-    transform: none;
-    margin-right: 20px;
-}
-.members-list-incharge li .event-date-inner {
-    height: inherit;
-    width: inherit;
-    border-radius: inherit;
-    background-color: #ffea00;
-    margin-left: 5px;
-    text-align: center;
-    overflow: hidden;
-    padding-top: 0px;
-}
-
-
-
 	/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
